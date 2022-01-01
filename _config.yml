@@ -1,32 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Jekyll config file.
+# Used for whole-site settings
+# Sores values which Jekyll expects you to set up once and rarely edit.
+
+# If you are editing this file often after setup:
+# Investigate # Jekyll's `data files` feature for the data you need to
+# update frequently.
 
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
+# Access site settings via e.g. {{ site.title }}, {{ site.email }}.
+# Any custom variable you create will be accessible in the templates
+# via {{ site.myvariable }}.
+
+# Working with YAML variables
+# https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial#example-6-variables
+
+# BTW: >- means to ignore newlines until next colon entry e.g. "baseurl:".
+
+
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Jason Hemann"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : "http://pages.github.ccs.neu.edu"
-baseurl                  : "/jhemann/test-site"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+name                     : "Jason Hemann"
+description              : "Personal Site."
+url                      : "http://jasonhemann.github.io"
+baseurl                  : ""
+repository               : "jasonhemann/jasonhemann.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -102,52 +113,44 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : Jason Hemann
+  avatar           : "https://avatars3.githubusercontent.com/u/1329370"
+  bio              : "Computer Scientist: I like PL, LP, CLP; <br /> not so much CPL."
+  location         : "Northeastern University"
+  email            : "jhemann@northeastern.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+    # the URL is being squatted :(
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://hemann.pl"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://twitter.com/jhemann"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/jasonhemann"
+    - label: "StackOverflow"
+      icon: "fas fa-fw fa-link"
+      url: "https://stackoverflow.com/users/4355474"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/jhemann/"
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/jhemann"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/jasonhemann"
+    - label: "StackOverflow"
+      icon: "fas fa-fw fa-link"
+      url: "https://stackoverflow.com/users/4355474"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://bitbucket.org/jhemann/"
 
 
 # Reading Files
