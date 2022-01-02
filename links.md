@@ -1,6 +1,6 @@
 ---
 title: Links
-layout: single
+layout: splash
 ---
 
 

@@ -1,12 +1,14 @@
 ---
 title: Teaching 
-layout: single
+layout: splash
 ---
+
+### My Teaching
 
 This is a collection of the courses I have taught or am teaching. I
 link to my course website, when available.
 
-## Northeastern University
+### Northeastern University
 
 - Spring 2021 CS 2510 Fundamentals of Computer Science II
 - [Fall 2021 CS 3800 Theory of Computation](https://jasonhemann.github.io/21FA-CS3800/)
@@ -22,7 +24,7 @@ link to my course website, when available.
 - Fall 2018 CS 4400 Programming Languages
 - Fall 2018 CS 5400 Software Development
 
-## Rose-Hulman Institute of Technology
+### Rose-Hulman Institute of Technology
 
 - Spring 2018 CSE 304 Programming Language Concepts
 - Winter 2018 CSE 304 Programming Language Concepts 
