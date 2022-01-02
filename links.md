@@ -49,7 +49,6 @@ layout: single
 - [Norman on "Denotational Design"](https://www.youtube.com/watch?v=O-8TNrWkhs8) (sort of our style of writing interpreters)
 - Danvy & Nielsen's ["Defunctionalization at Work"](https://www.brics.dk/RS/01/23/BRICS-RS-01-23.pdf)
 - Essay: ["What does valof defunctionalize?"]({{ site.baseurl }}/assets/code/valof-defunctionalizes.rkt)
-
 - Vanier's [blogpost on the Y combinator](https://mvanier.livejournal.com/2897.html)
 - Yin Wang's [slide deck on (re-)deriving the Y combinator](https://www.slideshare.net/yinwang0/reinventing-the-ycombinator)
 - [The smallest (in AIT) fix-point combinator](https://tromp.github.io/cl/LC.pdf)
@@ -69,6 +68,7 @@ layout: single
 
 ### Relational and Logic Programming
 
+- [miniKanren.org](http://minikanren.org)
 - van Emden on [relational programming, logic beyond prolog](https://arxiv.org/pdf/1412.3480.pdf)
 - [Purity](https://www.metalevel.at/prolog/purity) and [programming purely in Prolog](http://www.complang.tuwien.ac.at/ulrich/papers/PDF/2008-fdpe.pdf)
 - [Paulson on logic programs as inductive definitions](https://link.springer.com/chapter/10.1007/BFb0038699)
