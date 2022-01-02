@@ -1,9 +1,14 @@
 # main links
 main:
-  - title: "Vita"
-    url: /vita/
+  - title: "About"
+    url: /about/
   - title: "Teaching"
     url: /teaching/
+  - title: "Vita"
+    url: /vita/
+  - title: "Links"
+    
+    url: /links/
 
 # # sidebar links    
 # sidebar-site-map:

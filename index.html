@@ -2,3 +2,7 @@
 layout: home
 author_profile: true
 ---
+
+{% capture my_include %}{% include mainpage.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
