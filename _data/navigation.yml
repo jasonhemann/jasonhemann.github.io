@@ -4,8 +4,8 @@ main:
     url: /about/
   - title: "Teaching"
     url: /teaching/
-#  - title: "Vita"
-#    url: /assets/docs/vita.pdf
+  - title: "Vita"
+    url: /vita/
   - title: "Links"
     url: /links/
 
