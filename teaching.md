@@ -20,7 +20,7 @@ link to my course website, when available.
 - Fall 2020 CS 4500 Software Development 
 - Summer 2020 CS 3500 Object-oriented Development 
 - Spring 2020 CS 4500 Software Development
-- Spring 2018 CS 2510 Fundamentals of Computer Science II 
+- Spring 2019 CS 2510 Fundamentals of Computer Science II
 - Fall 2018 CS 4400 Programming Languages
 - Fall 2018 CS 5400 Software Development
 
