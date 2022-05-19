@@ -10,7 +10,7 @@ link to my course website, when available.
 
 ### Northeastern University
 
-- [Summer 2022 CS 2510 Principles of Programming Languages](http://jasonhemann.github.io/22SU-CS4400)
+- [Summer 2022 CS 4400 Principles of Programming Languages](http://jasonhemann.github.io/22SU-CS4400)
 - Spring 2021 CS 2510 Fundamentals of Computer Science II
 - [Fall 2021 CS 3800 Theory of Computation](https://jasonhemann.github.io/21FA-CS3800/)
 - [Fall 2021 CS 4400 Programming Languages](https://jasonhemann.github.io/21FA-CS4400/)
