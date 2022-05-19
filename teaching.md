@@ -1,5 +1,5 @@
 ---
-title: Teaching 
+title: Teaching
 layout: splash
 ---
 
@@ -19,8 +19,8 @@ link to my course website, when available.
 - [Spring 2021 CS 2800 Logic and Computation](https://pages.github.ccs.neu.edu/jhemann/21SP-CS2800/)
 - [Winter 2021 CS 5963 Relational and Logic Programming](https://pages.github.ccs.neu.edu/jhemann/21SP-CS5963/)
 - [Fall 2020 CS 2800 Logic and Computation](https://pages.github.ccs.neu.edu/jhemann/20FA-2800/)
-- Fall 2020 CS 4500 Software Development 
-- Summer 2020 CS 3500 Object-oriented Development 
+- Fall 2020 CS 4500 Software Development
+- Summer 2020 CS 3500 Object-oriented Development
 - Spring 2020 CS 4500 Software Development
 - Spring 2019 CS 2510 Fundamentals of Computer Science II
 - Fall 2018 CS 4400 Programming Languages
@@ -29,5 +29,5 @@ link to my course website, when available.
 ### Rose-Hulman Institute of Technology
 
 - Spring 2018 CSE 304 Programming Language Concepts
-- Winter 2018 CSE 304 Programming Language Concepts 
-- Fall 2017 CSE 304 Programming Language Concepts 
+- Winter 2018 CSE 304 Programming Language Concepts
+- Fall 2017 CSE 304 Programming Language Concepts
