@@ -1,6 +1,6 @@
 ---
-title: From what program is valof defunctionalized? 
---- 
+title: From what program is valof defunctionalized?
+---
 
 
 We use defunctionalization as program transformation, and see
