@@ -13,15 +13,17 @@ layout: splash
 
 ## Biography
 
-Jason Hemann is a lecturer in the Khoury College of Computer Sciences
-at Northeastern University. Hemann’s research interests include
-functional and logic programming. He focuses on embeddings and
-extensions to support logic programming in numerous host languages and
-transforming functional programs to relational ones. His microKanren
-model has inspired scores of implementations – more than 120, in over
-40 host languages, in just five years. Jason’s other interests concern
-novel uses of logic programming and symbolic constraint systems and
-typesafe embeddings of logic languages.
+
+Jason Hemann is an Assistant Professor of Computer Science in the
+Department of Mathematics and Computer Science at Seton Hall
+University. Hemann’s research interests include functional and logic
+programming DSLs. He focuses on embeddings and extensions to support
+logic programming in numerous host languages, transforming functional
+programs to relational ones, and teaching languages to support DSL
+programming. His microKanren model has inspired scores of
+implementations – more than 150, in over 50 host languages. Jason’s
+other interests concern novel uses of logic programming and symbolic
+constraint systems and typesafe embeddings of logic languages.
 
 Jason’s research interests blend together with his teaching. His
 research questions tend to emerge from his teaching, and his results
@@ -33,12 +35,13 @@ training programs, and university courses at undergraduate and
 graduate levels. His awards include “Associate Instructor of the Year”
 at Indiana University.
 
-Prior to joining Northeastern, Jason was briefly a visiting faculty at
-Rose-Hulman Institute of Technology. Jason earned his Ph.D. in 2020
-from the School of Informatics, Computing, and Engineering at Indiana
-University as part of the programming language research community and
-under the supervision of Dan Friedman. He earned his master’s in
-computer science from the School of Informatics and Computing at
-Indiana University, and both of his bachelor’s in computer science and
+Prior to joining SHU, Jason held Teaching Professor and Lecturer
+positions at Northeastern University and the Rose-Hulman Institute of
+Technology. Jason earned his Ph.D. in 2020 from the School of
+Informatics, Computing, and Engineering at Indiana University as part
+of the programming language research community and under the
+supervision of Dan Friedman. He earned his master’s in computer
+science from the School of Informatics and Computing at Indiana
+University, and both of his bachelor’s in computer science and
 philosophy and a bachelor of arts in history at Trinity University in
 San Antonio, Texas.
