@@ -115,14 +115,13 @@ analytics:
 author:
   name             : Jason Hemann
   avatar           : "https://avatars3.githubusercontent.com/u/1329370"
-  bio              : "I like PL, LP, CLP; <br /> not so much CPL."
-  location         : "Northeastern University"
-  email            : "jhemann@northeastern.edu"
+  bio              : "I like PL, LP, CLP; CPL-curious."
+  location         : "Seton Hall University"
+  email            : "jason.hemann@shu.edu"
   links:
-    # the URL is being squatted :(
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://hemann.pl"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jasonhemann.github.io"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=SePR8OkAAAAJ"
