@@ -8,9 +8,14 @@ layout: splash
 This is a collection of the courses I have taught or am teaching. I
 link to my course website, when available.
 
+### Seton Hall University
+
+- [Fall 2022 CSAS 4117 Software Engineering I](http://jasonhemann.github.io/22FA-CSAS4117/)
+
+
 ### Northeastern University
 
-- [Summer 2022 CS 4400 Principles of Programming Languages](http://jasonhemann.github.io/22SU-CS4400)
+- [Summer 2022 CS 4400 Principles of Programming Languages](http://jasonhemann.github.io/22SU-CS4400/)
 - Spring 2021 CS 2510 Fundamentals of Computer Science II
 - [Fall 2021 CS 3800 Theory of Computation](https://jasonhemann.github.io/21FA-CS3800/)
 - [Fall 2021 CS 4400 Programming Languages](https://jasonhemann.github.io/21FA-CS4400/)
