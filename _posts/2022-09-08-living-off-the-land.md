@@ -97,10 +97,10 @@ structure for openssl.
 
 ## `LD_LIBRARY_PATH`
 
-A little bit of cli-fu is just enough to hang yourself. Xah Lee gives
-a nice history lesson on some of the ways this can bite you. I may or
-may not have needed some settings for this install. But I did avail
-myself.
+A little bit of cli-fu is just enough to hang yourself. [Xah
+Lee](http://xahlee.info/UnixResource_dir/_/ldpath.html) gives a nice
+history lesson on some of the ways this can bite you. I may or may not
+have needed some settings for this install. But I did avail myself.
 
 # Scripting it!
 
