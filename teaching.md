@@ -10,8 +10,8 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- Fall 2022 CSAS 1114 Intro to Program Design I
 - [Fall 2022 CSAS 4117 Software Engineering I](http://jasonhemann.github.io/22FA-CSAS4117/)
-
 
 ### Northeastern University
 
