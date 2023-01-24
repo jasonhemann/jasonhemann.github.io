@@ -1,5 +1,5 @@
 ---
-title: Easy SPTPeasy
+title: Easy SFTPeasy
 ---
 
 The powers that be here at SHU make some webspace available to faculty
