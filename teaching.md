@@ -10,6 +10,9 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- [Fall 2023 CSAS 2123 Intro to Objects I](http://jasonhemann.github.io/23FA-CS2123)
+- [Fall 2023 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/23FA-CS1114)
+- [Fall 2023 CSAS 4117 Software Engineering I](http://jasonhemann.github.io/23FA-CS4117/)
 - [Spring 2023 CSAS 2126 Data Structures and Algorithms](http://jasonhemann.github.io/23SP-CS2126)
 - [Spring 2023 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/23SP-CS1114)
 - Fall 2022 CSAS 1114 Intro to Program Design I
