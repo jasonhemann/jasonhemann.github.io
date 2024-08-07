@@ -10,6 +10,7 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- Summer 2024 CSAS 3113 Programming Languages
 - [Spring 2024 CSAS 2126 Data Structures and Algorithms](http://jasonhemann.github.io/24SP-CS2126)
 - [Spring 2024 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/24SP-CS1114)
 - [Fall 2023 CSAS 2123 Intro to Objects I](http://jasonhemann.github.io/23FA-CS2123)
