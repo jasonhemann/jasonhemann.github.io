@@ -10,9 +10,11 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- Fall 2025 CSAS 4117 Software Engineering I
+- Fall 2025 CSAS 2123 Intro to Objects I
 - [Spring 2025 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/25SP-CS1114)
-- Spring 2024 CSAS 2126 Data Structures and Algorithms
-- Spring 2024 CSAS 4111 Artificial Intelligence
+- Spring 2025 CSAS 2126 Data Structures and Algorithms
+- Spring 2025 CSAS 4111 Artificial Intelligence
 - [Fall 2024 CSAS 2123 Intro to Objects I](http://jasonhemann.github.io/24FA-CS2123)
 - Summer 2024 CSAS 3113 Programming Languages
 - [Spring 2024 CSAS 2126 Data Structures and Algorithms](http://jasonhemann.github.io/24SP-CS2126)
