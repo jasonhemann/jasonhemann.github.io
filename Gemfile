@@ -13,8 +13,6 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -29,5 +27,9 @@ end
 
 
 gem "webrick", "~> 1.7"
-gem "jekyll-sass-converter", "~> 2.2"
-gem "jekyll-redirect-from", "~> 0.16.0"
+
+# GitHub Pages pinned environment
+ gem "github-pages", "~> 232", group: :jekyll_plugins
+
+# Local build TLS workaround for remote_theme
+ gem "openssl", "~> 3.2.2"
