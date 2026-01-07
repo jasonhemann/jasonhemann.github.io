@@ -36,7 +36,7 @@ link to my course website, when available.
 - [Spring 2021 CS 5400 Principles of Programming Languages](https://pages.github.ccs.neu.edu/jhemann/21SP-CS4400/)
 - [Spring 2021 CS 4400 Programming Languages](https://pages.github.ccs.neu.edu/jhemann/21SP-CS4400/)
 - [Spring 2021 CS 2800 Logic and Computation](https://jasonhemann.github.io/21SP-CS2800/)
-- [Winter 2021 CS 5963 Relational and Logic Programming](https://pages.github.ccs.neu.edu/jhemann/21SP-CS5963/)
+- [Winter 2021 CS 5963 Relational and Logic Programming](https://jasonhemann.github.io/21SP-CS5963/)
 - [Fall 2020 CS 2800 Logic and Computation](https://jasonhemann.github.io/20FA-2800/)
 - Fall 2020 CS 4500 Software Development
 - Summer 2020 CS 3500 Object-oriented Development
