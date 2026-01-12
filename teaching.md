@@ -10,6 +10,9 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- [Spring 2026 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/26SP-CS1114)
+- [Spring 2026 CSAS 2126 Data Structures and Algorithms](http://jasonhemann.github.io/26SP-CS2126)
+- [Spring 2026 CSAS 3204 Logic and the Limits to Knowledge](http://jasonhemann.github.io/26SP-CS3204)
 - [Fall 2025 CSAS 4117 Software Engineering I](http://jasonhemann.github.io/25FA-CS4117)
 - [Fall 2025 CSAS 2123 Intro to Objects I](http://jasonhemann.github.io/25FA-CS2123)
 - [Spring 2025 CSAS 1114 Intro to Program Design I](http://jasonhemann.github.io/25SP-CS1114)
