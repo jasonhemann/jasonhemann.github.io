@@ -32,7 +32,7 @@ title_separator          : "-"
 subtitle                 : "Computer Scientist" # site tagline that appears below site title in masthead
 name                     : "Jason Hemann"
 description              : "Personal Site."
-url                      : "http://jasonhemann.github.io"
+url                      : "https://hemann.pl"
 baseurl                  : ""
 repository               : "jasonhemann/jasonhemann.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -121,7 +121,7 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://jasonhemann.github.io"
+      url: "https://hemann.pl"
     - label: "Google Scholar"
       icon: "fab fa-fw fa-google"
       url: "https://scholar.google.com/citations?user=SePR8OkAAAAJ"
