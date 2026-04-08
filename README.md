@@ -24,6 +24,8 @@ Run locally with live reload:
 bundle exec jekyll serve --livereload
 ```
 
+(In some shell environments, you might need `LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8 bundle exec jekyll serve --livereload`.)
+
 Then open: `http://127.0.0.1:4000/`
 
 ## Content Entry Points
