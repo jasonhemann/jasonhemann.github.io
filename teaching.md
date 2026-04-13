@@ -17,7 +17,7 @@ link to my course website, when available.
 - [Fall 2025 CSAS 2123 Intro to Objects I](/25FA-CS2123)
 - [Spring 2025 CSAS 1114 Intro to Program Design I](/25SP-CS1114)
 - Spring 2025 CSAS 2126 Data Structures and Algorithms
-- Spring 2025 CSAS 4111 Artificial Intelligence
+- [Spring 2025 CSAS 4111 Artificial Intelligence](/25SP-CS4111)
 - [Fall 2024 CSAS 2123 Intro to Objects I](/24FA-CS2123)
 - Summer 2024 CSAS 3113 Programming Languages
 - [Spring 2024 CSAS 2126 Data Structures and Algorithms](/24SP-CS2126)
