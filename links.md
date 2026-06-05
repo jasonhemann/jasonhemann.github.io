@@ -52,6 +52,7 @@ layout: splash
 - Vanier's [blogpost on the Y combinator](https://mvanier.livejournal.com/2897.html)
 - Yin Wang's [slide deck on (re-)deriving the Y combinator](https://www.slideshare.net/yinwang0/reinventing-the-ycombinator)
 - [The smallest (in AIT) fix-point combinator](https://tromp.github.io/cl/LC.pdf)
+- [A smooth way to self-reference in math](https://jtra.cz/stuff/essays/math-self-reference-smooth/index.html)
 - [Poly-variadic fixpoint combinators for *mutual* recursion](http://okmij.org/ftp/Computation/fixed-point-combinators.html#Poly-variadic)
 - [Hunting the history of Moses Schönfinkel](https://writings.stephenwolfram.com/2020/12/where-did-combinators-come-from-hunting-the-story-of-moses-schonfinkel/)
 - [Kleene's "Church predecessor" via a trip to the dentist](http://link.springer.com/chapter/10.1007%2FBFb0062850)
@@ -80,4 +81,3 @@ layout: splash
 - Krishnamurthi's [PLAI](http://cs.brown.edu/courses/cs173/2012/book/)
 - [Barzilay's PL class notes](https://pl.barzilay.org/lec98)
 - [An agda based introduction to PL](https://plfa.github.io/GettingStarted/)
-

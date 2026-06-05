@@ -40,7 +40,7 @@ link to my course website, when available.
 - [Spring 2021 CS 4400 Programming Languages](/21SP-CS4400/)
 - [Spring 2021 CS 2800 Logic and Computation](/21SP-CS2800/)
 - [Winter 2021 CS 5963 Relational and Logic Programming](/21SP-CS5963/)
-- [Fall 2020 CS 2800 Logic and Computation](/20FA-2800/)
+- [Fall 2020 CS 2800 Logic and Computation](/20FA-CS2800/)
 - Fall 2020 CS 4500 Software Development
 - Summer 2020 CS 3500 Object-oriented Development
 - Spring 2020 CS 4500 Software Development
