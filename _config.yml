@@ -134,9 +134,6 @@ author:
     - label: "StackOverflow"
       icon: "fab fa-fw fa-stack-overflow"
       url: "https://stackoverflow.com/users/4355474"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/jhemann/"
 
 # Site Footer
 footer:
@@ -150,9 +147,6 @@ footer:
     - label: "StackOverflow"
       icon: "fas fa-fw fa-link"
       url: "https://stackoverflow.com/users/4355474"
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      url: "https://bitbucket.org/jhemann/"
 
 
 # Reading Files
