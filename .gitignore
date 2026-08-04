@@ -26,3 +26,7 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# Local working files
+.codex-artifacts/
+_drafts/
