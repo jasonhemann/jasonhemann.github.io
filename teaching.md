@@ -10,6 +10,7 @@ link to my course website, when available.
 
 ### Seton Hall University
 
+- [Fall 2026 CSAS 3113 Programming Languages](/26FA-CS3113)
 - [Spring 2026 CSAS 1114 Intro to Program Design I](/26SP-CS1114)
 - [Spring 2026 CSAS 2126 Data Structures and Algorithms](/26SP-CS2126)
 - [Spring 2026 CSAS 3204 Logic and the Limits to Knowledge](/26SP-CS3204)
