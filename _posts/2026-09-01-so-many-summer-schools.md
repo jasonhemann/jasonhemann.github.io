@@ -50,7 +50,7 @@ These are month-sized reminders, not promises. Some school names link to a note 
 | [NASSLLI](https://folli.info/?page_id=49) (logic, language, and information) | June | Nov. for course proposals; Feb. for attendance | attendee reg.: April–May | grants: Feb.–March; early rate: ~April |
 | [ACACES](https://www.hipeac.net/acaces/2026/) (architecture and embedded compilation) | mid-July | late March | apps: May; final reg.: June | grants with the May app; payment in June |
 | [Security Testing & Verification](https://cybersecurity-research.be/summer-school-on-security-testing-and-verification-2026/) (software security, testing, and verification) | July or early Sept. | May | selective cutoff not reliably published | early rate: July–Aug. |
-| [ESSLLI](https://2026.esslli.eu/) (logic, language, and information) | late July–mid-Aug. | Jan.–Feb. | final reg.: July | support: March–April; early rate: May–June |
+| [ESSLLI](https://ufal.mff.cuni.cz/esslli-2026) (logic, language, and information) | late July–mid-Aug. | Jan.–Feb. | final reg.: July | support: March–April; early rate: May–June |
 | [FOSAD](https://sites.google.com/uniurb.it/fosad) (security analysis and design) | late Aug. | June | app: July | scholarships and discounted fees are tied to the app |
 | [DARE](https://dare-milan.github.io/) (distributed systems; programming models, verification, testing, and debugging) | late Aug.–Sept. | mid-April | apps: May–June | no separate support cutoff listed |
 | [International Tbilisi Summer School in Logic and Language](https://www.logic.at/tbilisi26/) (broader logic and language) | Sept. | May–June | varies | waivers and co-location routes vary |
@@ -63,7 +63,7 @@ Both recur, but their topics change; check the year's program to see whether it 
 | Program | Held | Start watching | Admission or reg. |
 |---|---|---|---|
 | [Estonian Winter School in Computer Science (EWSCS)](https://cs.ioc.ee/ewscs/) | early March | early Jan. | Feb. |
-| [ACM India Summer and Winter Schools](https://india.acm.org/education/call-for-acm-india-summer-winter-school) | summer and winter programs | Jan.–March for summer; Aug.–Oct. for winter | edition-specific |
+| [ACM India Summer and Winter Schools](https://india.acm.org/education/about-summer-schools) | summer and winter programs | Jan.–March for summer; Aug.–Oct. for winter | edition-specific |
 
 ### Emerging schools
 
