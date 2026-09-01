@@ -1,0 +1,59 @@
+---
+layout: single
+---
+
+{% assign bookings = site.data.bookings %}
+{% assign service = bookings.services[page.booking_service] %}
+
+{% if service %}
+  {% assign target = bookings.targets[service.target] %}
+
+  <p>{{ service.summary }}</p>
+
+  {% case service.status %}
+    {% when "open" %}
+      {% if target and target.url %}
+        <p class="notice--success"><strong>Booking is open.</strong> {{ service.status_message }}</p>
+        <p><a class="btn btn--primary" href="{{ target.url }}">{{ service.booking_label }}</a></p>
+      {% else %}
+        <p class="notice--warning"><strong>Booking-link setup in progress.</strong> {{ service.missing_target_message }}</p>
+      {% endif %}
+    {% when "upcoming" %}
+      <p class="notice--info"><strong>Booking is not open yet.</strong> {{ service.status_message }}</p>
+    {% when "closed" %}
+      <p class="notice--info"><strong>Booking is closed.</strong> {{ service.status_message }}</p>
+    {% else %}
+      <p class="notice--danger"><strong>This booking page is unavailable.</strong> Please contact me rather than using an old Google Calendar link.</p>
+  {% endcase %}
+
+  <h2>Availability</h2>
+
+  <ul>
+    {% for window in service.availability %}
+      <li>{{ window }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2>Appointment details</h2>
+
+  <dl>
+    <dt>Length</dt>
+    <dd>{{ service.appointment }}</dd>
+    <dt>Location</dt>
+    <dd>{{ service.location }}</dd>
+    <dt>Who should use this page</dt>
+    <dd>{{ service.audience }}</dd>
+  </dl>
+
+  <h2>Before you book</h2>
+
+  <ul>
+    {% for rule in service.rules %}
+      <li>{{ rule }}</li>
+    {% endfor %}
+  </ul>
+
+  <p><a href="{{ '/book/' | relative_url }}">See all currently open appointment types</a></p>
+{% else %}
+  <p class="notice--danger"><strong>This booking service is not configured.</strong> Please contact me rather than using an old Google Calendar link.</p>
+{% endif %}
