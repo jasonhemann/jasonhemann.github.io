@@ -28,39 +28,27 @@ services:
     title: Office Hours
     path: /book/office-hours/
     group: general
-    status: open
     target: office_hours
     booking_label: Book office hours
     summary: >-
       A short meeting for questions, code help, or showing me something that
       would be easier to discuss in person.
-    availability:
-      - "Tuesdays, 8:00–9:30 a.m. Eastern, September 1 through December 8"
-      - "No office hours October 20, October 27, or November 24"
     appointment: "10 minutes, followed by a 5-minute buffer"
     location: "McQuaid Hall 210"
     audience: "Students in my current courses"
     rules:
       - "Choose an assignment-specific appointment instead when your assignment directs you to one."
       - "You may reschedule or cancel through Google Calendar at least 12 hours in advance."
-    status_message: "Office-hours booking is open."
-    missing_target_message: >-
-      Office hours are active, but the Google booking link is still being
-      configured. Please check back before choosing a time.
 
   csas_2123_fishy:
     title: CSAS 2123 Fishy Code Walk
     path: /book/csas-2123-fishy/
     group: csas_2123
-    status: upcoming
     target: csas_2123_fishy
     booking_label: Book a Fishy code walk
     summary: >-
       The assignment code walk for a Fishy pair, or for one student working
       solo.
-    availability:
-      - "Tuesday, November 10, 8:00–11:45 a.m. Eastern"
-      - "Wednesday, November 11, 11:00 a.m.–12:00 p.m. Eastern"
     appointment: "10 minutes, followed by a 5-minute buffer"
     location: "McQuaid Hall 210"
     audience: "CSAS 2123 students completing Fishy"
@@ -69,37 +57,20 @@ services:
       - "Give both partners' names and SHU email addresses, or enter “solo.”"
       - "Both partners must attend."
       - "There is no routine redo window; contact me promptly about an exceptional conflict."
-    status_message: >-
-      Booking will open for the Fishy code-walk window. Until then, use this
-      page as the durable course link.
-    missing_target_message: >-
-      The Fishy booking link is still being configured. Please check back when
-      the assignment says booking is open.
 
   csas_3113_code_review:
     title: CSAS 3113 Code Review
     path: /book/csas-3113-code-review/
     group: csas_3113
-    status: open
     target: csas_3113_code_review
     booking_label: Book a CSAS 3113 code review
     summary: >-
       The shared booking page for assignment code reviews in CSAS 3113. The
       assignment tells you which review to book and which artifact to bring.
-    availability:
-      - "Assignment 3: Tuesday, September 22, 8:00–11:15 a.m., and Wednesday, September 23, 11:00 a.m.–12:00 p.m. Eastern"
-      - "Assignment 9: Tuesday, December 1, 8:00–11:15 a.m., and Wednesday, December 2, 11:00 a.m.–12:00 p.m. Eastern"
     appointment: "10 minutes, followed by a 5-minute buffer"
     location: "McQuaid Hall 210"
     audience: "CSAS 3113 students with an assignment code review"
     rules:
       - "Make one booking per student for the review named by the assignment."
       - "Bring the exact submitted or corrected artifact identified for that review."
-      - "Assignment 3 reviews must be completed by October 9 at 5:00 p.m. Eastern."
-      - "Assignment 9 reviews must be completed by December 11 at 5:00 p.m. Eastern."
       - "If a review is marked Not yet, arrange the next attempt with me directly; retry appointments are not self-service."
-    status_message: >-
-      Assignment 3 is the active review window; Assignment 9 will open later.
-    missing_target_message: >-
-      The code-review booking link is still being configured. Please check
-      back when the assignment says booking is open.

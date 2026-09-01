@@ -10,29 +10,16 @@ layout: single
 
   <p>{{ service.summary }}</p>
 
-  {% case service.status %}
-    {% when "open" %}
-      {% if target and target.url %}
-        <p class="notice--success"><strong>Booking is open.</strong> {{ service.status_message }}</p>
-        <p><a class="btn btn--primary" href="{{ target.url }}">{{ service.booking_label }}</a></p>
-      {% else %}
-        <p class="notice--warning"><strong>Booking-link setup in progress.</strong> {{ service.missing_target_message }}</p>
-      {% endif %}
-    {% when "upcoming" %}
-      <p class="notice--info"><strong>Booking is not open yet.</strong> {{ service.status_message }}</p>
-    {% when "closed" %}
-      <p class="notice--info"><strong>Booking is closed.</strong> {{ service.status_message }}</p>
-    {% else %}
-      <p class="notice--danger"><strong>This booking page is unavailable.</strong> Please contact me rather than using an old Google Calendar link.</p>
-  {% endcase %}
+  {% if target and target.url %}
+    <p class="notice--info"><strong>The linked Google Calendar page is authoritative.</strong> Open it to see the dates and times currently offered.</p>
+    <p><a class="btn btn--primary" href="{{ target.url }}">{{ service.booking_label }}</a></p>
+  {% else %}
+    <p class="notice--warning"><strong>This booking link is not configured.</strong> Please contact me rather than using an old Google Calendar link.</p>
+  {% endif %}
 
   <h2>Availability</h2>
 
-  <ul>
-    {% for window in service.availability %}
-      <li>{{ window }}</li>
-    {% endfor %}
-  </ul>
+  <p>If the linked Google page shows no times, no appointments of this type are currently configured.</p>
 
   <h2>Appointment details</h2>
 
@@ -53,7 +40,7 @@ layout: single
     {% endfor %}
   </ul>
 
-  <p><a href="{{ '/book/' | relative_url }}">See all currently open appointment types</a></p>
+  <p><a href="{{ '/book/' | relative_url }}">See all appointment types</a></p>
 {% else %}
   <p class="notice--danger"><strong>This booking service is not configured.</strong> Please contact me rather than using an old Google Calendar link.</p>
 {% endif %}
