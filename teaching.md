@@ -8,6 +8,10 @@ layout: splash
 This is a collection of the courses I have taught or am teaching. I
 link to my course website, when available.
 
+### Teaching Resources
+
+- [Oral Code Explanations and Vivas](/teaching/vivas/)
+
 ### Seton Hall University
 
 - [Fall 2026 CSAS 3113 Programming Languages](/26FA-CS3113)
