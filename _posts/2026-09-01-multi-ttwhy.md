@@ -17,42 +17,51 @@ emacsclient -t             # a new frame on this terminal
 Easy peasy. And, once the server is warm, lickety-split.
 
 Except that this combination does not work in an unpatched Emacs Mac
-Port. GNU Emacs includes its official Cocoa, or NS, backend. Emacs Mac
-Port is a separate port with its own collection of excellent macOS
-integrations and its own `mac` display backend. With an unpatched Mac
-Port, GUI-first startup redirects `-t` to a graphical frame, while
-daemon-first startup makes `-c` fall back to a terminal frame.
+Port. GNU Emacs includes its official backend. Emacs Mac Port is a
+separate port with its own collection of excellent macOS integrations
+and its own `mac` display backend. On a mac it should be the obvious
+choice. However, in Mac Port as it stands, GUI-first startup redirects
+`-t` to a graphical frame, while daemon-first startup makes `-c` fall
+back to a terminal frame. 0/2.
 
 The [current Mac Port source still says](https://github.com/jdtsmith/emacs-mac/blob/emacs-mac-30_1_exp/README-mac#L209-L212)
 that it does not support multi-tty together with its GUI. TTY-only
 multi-tty is supposed to work.
 
+My current workaround was to stop using the Mac Port. I gave up the
+Mac Port-specific features, but I do get the client/server model I was
+trying to configure. But there is hope on the horizon.
+
 ## The failure is asymmetric
 
-First, some Emacs terminology. A graphical window containing Emacs is a
-*frame*. An Emacs *window* is one of the panes inside it. A terminal
-screen occupied by Emacs is also a frame, on a different terminal.
+First, an Emacs vocabulary lesson. A graphical window containing Emacs
+is a *frame*. An Emacs *window* is one of the *panes* inside it. A
+terminal screen occupied by Emacs is also a frame, on a different
+terminal. *Multi-tty* is Emacs's ability to attach one running Emacs
+process to multiple terminals at the same time. Each terminal gets its
+own Emacs frame, while all the frames share the same buffers. A
+graphical frame and a text frame belonging to one Emacs process
+are one particular instance of this.
 
-On GNU and Unix systems, one Emacs process is designed to use
-[graphical and text terminals simultaneously](https://www.gnu.org/software/emacs/manual/html_node/elisp/Frames.html).
-The documented jobs of [`emacsclient -c` and `emacsclient -t`](https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html)
+One Emacs process is designed to use [graphical and text terminals
+simultaneously](https://www.gnu.org/software/emacs/manual/html_node/elisp/Frames.html).
+The documented jobs of [`emacsclient -c` and `emacsclient
+-t`](https://www.gnu.org/software/emacs/manual/html_node/emacs/emacsclient-Options.html)
 are to ask that process for a graphical or text frame, respectively.
-This is the general Emacs model as of 2026.
+This is the general Emacs model.
 
-There are two directions to the failure in an unpatched Mac Port:
+So there are two kinds of failures in current release Mac Port:
 
 * Start the GUI first and call `server-start`: graphical client frames
-  work, but `emacsclient -t` is redirected to a graphical frame.
-* Start a frame-less `--daemon` first: the process cannot initialize the
-  Mac GUI later, so `emacsclient -c` cannot make its first graphical
-  frame.
+  work, but `emacsclient -t` is instead redirected to a graphical frame.
+* Start a frame-less `--daemon` first: the process cannot initialize
+  the Mac GUI later, so `emacsclient -c` cannot make its first
+  graphical frame. When `-c` cannot make a graphical frame,
+  `emacsclient` deliberately falls back to a terminal frame, and so it
+  looks like the client is just ignoring our request.
 
-Those are the two symptoms in the still-open
+Both of these symptoms are described in the still-open
 [issue #52](https://github.com/railwaycat/homebrew-emacsmacport/issues/52).
-There is one extra wrinkle: when `-c` cannot make a graphical frame,
-`emacsclient` deliberately falls back to a terminal frame. What looks
-like the client ignoring my request is evidence that GUI initialization
-failed.
 
 ## A partial fix ships downstream
 
@@ -77,17 +86,9 @@ in a bad state. The established
 [`mac-pseudo-daemon`](https://github.com/DarwinAwardWinner/mac-pseudo-daemon)
 workaround handles that lifecycle problem by starting graphically and
 keeping a hidden GUI frame alive. It is a useful pseudo-daemon, but the
-“pseudo” is doing real work in that name.
+"pseudo" is doing real work in that name.
 
-## What I use now
-
-My current workaround is to stop using the Mac Port. My current
-Emacs.app is a standard GNU Emacs 30.2 NS build installed through
-[Jimeh's `emacs-app` cask](https://github.com/jimeh/emacs-builds). I give
-up the Mac Port-specific features, but I get the client/server model I
-was trying to configure.
-
-## Good news---a full fix?
+## Good news everyone---a full fix?
 
 Here is a delightful bit of news. On August 30, 2026, someone opened
 [Mac Port pull request #143](https://github.com/jdtsmith/emacs-mac/pull/143),
@@ -98,35 +99,25 @@ processing after that display is initialized. The author reports passing
 the server and client tests and manually testing TTY and GUI clients in
 both orders.
 
-A stacked [pull request #144](https://github.com/jdtsmith/emacs-mac/pull/144)
-addresses a dispatch-worker starvation problem found while repeatedly
-creating and deleting those frames. That companion patch is less settled;
-its maintainer discussion says some of its code may be superseded.
-
-As of September 1, both pull requests are open. The main patch is
-small and cleanly mergeable, but it has no human review or project CI
-result yet. This is the first credible candidate I have found for the
-whole Mac Port problem. This two-day-old code could be just the piece
-we needed. Right now it is awaiting review.
+The patch is small and cleanly mergeable, but it has no human review
+or project CI result yet. This is the first credible candidate I have
+found for the whole Mac Port problem. This two-day-old code could be
+just the piece we needed. Right now it is awaiting review.
 
 The state of play as of September 1, 2026, is:
 
-| Setup                                           | GUI and TTY frames together | Frame-less daemon can create its first GUI frame |
-|-------------------------------------------------|-----------------------------|--------------------------------------------------|
-| Standard GNU Emacs NS build                     | Yes                         | Yes                                              |
-| Unpatched Emacs Mac Port                        | No                          | No                                               |
-| Railwaycat-patched Mac Port                     | Yes, if GUI-first           | No                                               |
-| PR #143 applied to experimental Emacs Mac 30    | Author reports yes          | Author reports yes                               |
+| Setup                                        | GUI and TTY frames together | Frame-less daemon can create its first GUI frame |
+|----------------------------------------------|-----------------------------|--------------------------------------------------|
+| Standard GNU Emacs build                     | Yes                         | Yes                                              |
+| Unpatched Emacs Mac Port                     | No                          | No                                               |
+| Railwaycat-patched Mac Port                  | Yes, if GUI-first           | No                                               |
+| PR #143 applied to experimental Emacs Mac 30 | Author reports yes          | Author reports yes                               |
 
 ## So, multi-ttwhy?
 
-The best way to solve a problem is sometimes to make it the problem of
+The best way to solve a problem is sometimes to let it be the problem of
 someone with more time or talent. Here, GNU Emacs already had the model,
 Railwaycat carries the practical Mac Port patch, and now a new pull
 request attempts the last daemon-to-GUI step.
 
-The precise answer as of September 1, 2026, is less dramatic and more
-useful. Multi-tty works in Emacs generally and in the standard macOS NS
-build. It works in a GUI-first Railwaycat Mac Port. It still does not
-work completely in current released Mac Port builds, and the prospective
-full fix is only two days old.
+The prospective full fix is only two days old, but our long international parenthetical editing nightmare may soon be over.
