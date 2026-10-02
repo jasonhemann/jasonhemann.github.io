@@ -66,11 +66,10 @@ services:
     booking_label: Book a CSAS 3113 code review
     summary: >-
       The shared booking page for assignment code reviews in CSAS 3113. The
-      assignment tells you which review to book and which artifact to bring.
+      assignment tells you which review to book.
     appointment: "10 minutes, followed by a 5-minute buffer"
     location: "McQuaid Hall 210"
     audience: "CSAS 3113 students with an assignment code review"
     rules:
       - "Make one booking per student for the review named by the assignment."
-      - "Bring the exact submitted or corrected artifact identified for that review."
       - "If a review is marked Not yet, arrange the next attempt with me directly; retry appointments are not self-service."
